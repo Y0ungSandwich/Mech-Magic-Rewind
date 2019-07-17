@@ -1,0 +1,334 @@
+<version>
+    <pack>
+        <version>1.0.0A</version>
+        <minecraft>1.12.2</minecraft>
+        <memory>4096</memory>
+        <permgen>512</permgen>
+        <java min="8" />
+    </pack>
+    <loader type="forge" version="14.23.5.2838"/>
+    
+    
+    <delete>
+      <folder base="root" target="scripts%s%"/>
+      <folder base="root" target="local%s%"/>
+    </delete>
+
+    
+    <colours>
+        <colour name="Green" code="cef4cb"/>
+        <colour name="Red" code="d15047"/>
+        <colour name="Orange" code="f46e42"/>
+        <colour name="Blue" code="4286f4"/>
+        <colour name="Purple" code="cd6ee5"/>
+        <colour name="Yellow" code="fffa00"/>
+    </colours>
+        
+        <mods>
+            <!-- Main mods -->
+            
+            <mod name="Actually Additions" version="r149" url="packs/MechMagicRewind/files/1.12.2Mods/ActuallyAdditions-1.12.2-r149.jar" file="ActuallyAdditions-1.12.2-r149.jar" md5="f50215ba528830eaef78e03b27dbed29" download="server" type="mods" />
+            
+            <mod name="AE2 Stuff" version="0.7.0.4" url="packs/MechMagicRewind/files/1.12.2Mods/ae2stuff-0.7.0.4-mc1.12.2.jar" file="ae2stuff-0.7.0.4-mc1.12.2.jar" md5="8594b7501c1ecc1bdaaa8ef42b7dbdda" download="server" type="mods" />
+            
+            <mod name="AE2 Wireless Terminals (AE2WTLib)" version="1.12.2-1.0.30" url="packs/MechMagicRewind/files/1.12.2Mods/AE2WTLib-1.12.2-1.0.30.jar" file="AE2WTLib-1.12.2-1.0.30.jar" md5="0e8cf7b171fee14b054cb4441650b539" download="server" type="mods" />
+            
+            <mod name="Akashic Tome" version="1.2-12" url="packs/MechMagicRewind/files/1.12.2Mods/AkashicTome-1.2-12.jar" file="AkashicTome-1.2-12.jar" md5="b753c7ce93ad8768e3ba3a9f35d16bee" download="server" type="mods" />
+            
+            <mod name="Applied Energistics 2" version="rv6-stable-6" url="packs/MechMagicRewind/files/1.12.2Mods/appliedenergistics2-rv6-stable-6.jar" file="appliedenergistics2-rv6-stable-6.jar" md5="9c7b1b142d9676cec4f92b7e07ac3cd9" download="server" type="mods" />
+            
+            <mod name="Astral Sorcery" version="1.12.2-1.10.19" url="packs/MechMagicRewind/files/1.12.2Mods/astralsorcery-1.12.2-1.10.19.jar" file="astralsorcery-1.12.2-1.10.19.jar" md5="a46a48be36ce03360ca3e0addc1ebc51" download="server" type="mods" />
+            
+            <mod name="Baubles" version="1.5.2" url="packs/MechMagicRewind/files/1.12.2Mods/Baubles-1.12-1.5.2.jar" file="Baubles-1.12-1.5.2.jar" md5="944dec4ef3fbfd4d498d94a7047af201" download="server" type="mods" />
+            
+            <mod name="Bed Patch" version="2.2-1.12.2" url="packs/MechMagicRewind/files/1.12.2Mods/bedpatch-2.2-1.12.2.jar" file="bedpatch-2.2-1.12.2.jar" md5="336fea80502d84a94a04791c64f1b071" download="server" type="mods" />
+            
+            <mod name="Better Advancements" version="0.1.0" url="packs/MechMagicRewind/files/1.12.2Mods/BetterAdvancements-1.12.2-0.1.0.77.jar" file="BetterAdvancements-1.12.2-0.1.0.77.jar" md5="9009a4d080caf4d31e4ef8edba1f90cf" download="server" type="mods" />
+            
+            <mod name="BetterFps" version="1.4.8" url="packs/MechMagicRewind/files/1.12.2Mods/BetterFps-1.4.8.jar" file="BetterFps-1.4.8.jar" md5="d36f4d3c0f96e99a9a1ad2e8eeda1fc4" download="server" type="mods" />
+            
+            <mod name="BiblioCraft" version="2.4.5" url="packs/MechMagicRewind/files/1.12.2Mods/BiblioCraft[v2.4.5][MC1.12.2].jar" file="BiblioCraft[v2.4.5][MC1.12.2].jar" md5="5b9f1a1543a1fdf687fe4761e3d63ed4" download="server" type="mods" />
+            
+            <mod name="Binnie&apos;s Mods" version="2.5.1.188" url="packs/MechMagicRewind/files/1.12.2Mods/binnie-mods-1.12.2-2.5.1.188.jar" file="binnie-mods-1.12.2-2.5.1.188.jar" md5="16852f768f8ef27fd3679078646f9d6e" download="server" type="mods" />
+            
+            <mod name="Blood Magic: Alchemical Wizardry" version="1.12.2-2.4.1-103" url="packs/MechMagicRewind/files/1.12.2Mods/BloodMagic-1.12.2-2.4.1-103.jar" file="BloodMagic-1.12.2-2.4.1-103.jar" md5="7c8f42c7b20770097dcc961c72787f94" download="server" type="mods" />
+            
+            <mod name="Botania" version="r1.10-361" url="packs/MechMagicRewind/files/1.12.2Mods/Botania r1.10-361.jar" file="Botania r1.10-361.jar" md5="0bf110280f77f3dd5ac2ccd4fb839d6a" download="server" type="mods" />
+            
+            <mod name="Bountiful" version="2.2.0" url="packs/MechMagicRewind/files/1.12.2Mods/Bountiful-2.2.0.jar" file="Bountiful-2.2.0.jar" md5="e2c06a333ef9a56484b648a41ed02789" download="server" type="mods" />
+            
+            <mod name="Buildcraft" version="all-7.99.24.1" url="packs/MechMagicRewind/files/1.12.2Mods/buildcraft-all-7.99.24.1.jar" file="buildcraft-all-7.99.24.1.jar" md5="45e9e731ce4acdd54d84b1851216b184" download="server" type="mods" />
+            
+            <mod name="Crop-Eating Animals" version="1.12.2-1.4.1" url="packs/MechMagicRewind/files/1.12.2Mods/ceanimals-1.12.2-1.4.1.jar" file="ceanimals-1.12.2-1.4.1.jar" md5="26ced96ca837b032e8e7437bae5217e2" download="server" type="mods" />
+            
+            <mod name="Chisel" version="0.2.1.35" url="packs/MechMagicRewind/files/1.12.2Mods/Chisel-MC1.12.2-0.2.1.35.jar" file="Chisel-MC1.12.2-0.2.1.35.jar" md5="dbda5475859bcffc9f572c5a1506a1f4" download="server" type="mods" />
+            
+            <mod name="Chococraft 3" version="0.9.8.0" url="packs/MechMagicRewind/files/1.12.2Mods/chococraft_1.12.2-0.9.8.0.jar" file="chococraft_1.12.2-0.9.8.0.jar" md5="b895e88ff98eec927cba2675211f403d" download="server" type="mods" />
+            
+            <mod name="Clumps" version="3.1.2" url="packs/MechMagicRewind/files/1.12.2Mods/Clumps-3.1.2.jar" file="Clumps-3.1.2.jar" md5="e0c4c4f04aeb0e0a48fc7534f9e7d6be" download="server" type="mods" />
+            
+            <mod name="CoFH World" version="1.3.1.7" url="packs/MechMagicRewind/files/1.12.2Mods/CoFHWorld-1.12.2-1.3.1.7-universal.jar" file="CoFHWorld-1.12.2-1.3.1.7-universal.jar" md5="c196ade3fe4f33b4d38b4de43326ae2d" download="server" type="mods" />
+            
+            <mod name="Compact Machines 3" version="1.12.2-3.0.18-b278" url="packs/MechMagicRewind/files/1.12.2Mods/compactmachines3-1.12.2-3.0.18-b278.jar" file="compactmachines3-1.12.2-3.0.18-b278.jar" md5="e195df8997b3e7fe70b3b39266aceb79" download="server" type="mods" />
+            
+            <mod name="Controlling" version="3.0.7" url="packs/MechMagicRewind/files/1.12.2Mods/Controlling-3.0.7.jar" file="Controlling-3.0.7.jar" md5="f640a63ddae6419a706e4beaec4a9f31" download="server" type="mods" />
+            
+            <mod name="Cooking for Blockheads" version="6.4.71" url="packs/MechMagicRewind/files/1.12.2Mods/CookingForBlockheads_1.12.2-6.4.71.jar" file="CookingForBlockheads_1.12.2-6.4.71.jar" md5="995ffd1af0f16bdae20ab62b46fcd492" download="server" type="mods" />
+            
+            <mod name="Corpse" version="1.12.2-1.0.2" url="packs/MechMagicRewind/files/1.12.2Mods/corpse-1.12.2-1.0.2.jar" file="corpse-1.12.2-1.0.2.jar" md5="eb48c49faff9a8eb027938d4362d8e12" download="server" type="mods" />
+            
+            <mod name="CraftTweaker2" version="1.12-4.1.19" url="packs/MechMagicRewind/files/1.12.2Mods/CraftTweaker2-1.12-4.1.19.jar" file="CraftTweaker2-1.12-4.1.19.jar" md5="513ae1c980c23ef7be081ad151618320" download="server" type="mods" />
+            
+            <mod name="CTM" version="MC1.12.2-0.3.3.22" url="packs/MechMagicRewind/files/1.12.2Mods/CTM-MC1.12.2-0.3.3.22.jar" file="CTM-MC1.12.2-0.3.3.22.jar" md5="086cd9da4b8c50a9e483c7b580a9c4d8" download="server" type="mods" />
+            
+            <mod name="Custom Backgrounds" version="1.1.1" url="packs/MechMagicRewind/files/1.12.2Mods/CustomBackgrounds-MC1.12-1.1.1.jar" file="CustomBackgrounds-MC1.12-1.1.1.jar" md5="b0f20b60bba201bbcf63a6d18cd191db" download="server" type="mods" />
+            
+            <mod name="Custom Main Menu" version="2.0.9" url="packs/MechMagicRewind/files/1.12.2Mods/CustomMainMenu-MC1.12.2-2.0.9.jar" file="CustomMainMenu-MC1.12.2-2.0.9.jar" md5="0d34d658c07ebe9dd36aba17e59f8d3d" download="server" type="mods" />
+            
+            <mod name="Cyclic" version="1.19.12" url="packs/MechMagicRewind/files/1.12.2Mods/Cyclic-1.12.2-1.19.12.jar" file="Cyclic-1.12.2-1.19.12.jar" md5="919802ec2f8e574f2788dfe32252de06" download="server" type="mods" />
+            
+            <mod name="Diet Hopper" version="1.1" url="packs/MechMagicRewind/files/1.12.2Mods/diethopper-1.1.jar" file="diethopper-1.1.jar" md5="1d616cb7b25de3ae44f06e26d18bd07e" download="server" type="mods" />
+            
+            <mod name="Enderfuge" version="1.4.11" url="packs/MechMagicRewind/files/1.12.2Mods/Enderfuge-1.12.2-1.4.11.jar" file="Enderfuge-1.12.2-1.4.11.jar" md5="20cf08ff1d8d83dd50697a2e8b6a4d34" download="server" type="mods" />
+            
+            <mod name="EnderStorage" version="2.4.5.135" url="packs/MechMagicRewind/files/1.12.2Mods/EnderStorage-1.12.2-2.4.5.135-universal.jar" file="EnderStorage-1.12.2-2.4.5.135-universal.jar" md5="d7d6b1991449110cfa7b1844b5811f75" download="server" type="mods" />
+            
+            <mod name="EnderTanks" version="1.6.8" url="packs/MechMagicRewind/files/1.12.2Mods/endertanks-1.12.0-1.6.8.jar" file="endertanks-1.12.0-1.6.8.jar" md5="c26d670d99ffbfce2b31fd6c50dd386e" download="server" type="mods" />
+            
+            <mod name="Ender Utilities" version="0.7.12" url="packs/MechMagicRewind/files/1.12.2Mods/enderutilities-1.12.2-0.7.12.jar" file="enderutilities-1.12.2-0.7.12.jar" md5="1912bacca4814e5d3b31a33b63ef6c75" download="server" type="mods" />
+            
+            <mod name="EvilCraft" version="1.12.2-0.10.76" url="packs/MechMagicRewind/files/1.12.2Mods/EvilCraft-1.12.2-0.10.76.jar" file="EvilCraft-1.12.2-0.10.76.jar" md5="b73ea45473ab16f3f8046de460a51794" download="server" type="mods" />
+            
+            <mod name="Extra Utilities 2" version="${version}" url="packs/MechMagicRewind/files/1.12.2Mods/extrautils2-1.12-1.9.9.jar" file="extrautils2-1.12-1.9.9.jar" md5="1ea591619e6d5204bf077214868772ef" download="server" type="mods" />
+            
+            <mod name="Extreme Reactors" version="1.12.2-0.4.5.67" url="packs/MechMagicRewind/files/1.12.2Mods/ExtremeReactors-1.12.2-0.4.5.67.jar" file="ExtremeReactors-1.12.2-0.4.5.67.jar" md5="92e5cc48aca43add940af096e7694141" download="server" type="mods" />
+            
+            <mod name="Fast Leaf Decay" version="v14" url="packs/MechMagicRewind/files/1.12.2Mods/FastLeafDecay-v14.jar" file="FastLeafDecay-v14.jar" md5="18096ffb7f58d94f8e5a7bf2ff160f0f" download="server" type="mods" />
+            
+            <mod name="Featured Servers" version="1.12-1.0.6" url="packs/MechMagicRewind/files/1.12.2Mods/FeaturedServers-1.12-1.0.6.jar" file="FeaturedServers-1.12-1.0.6.jar" md5="4f3a2c847b38321d900c986f663f4068" download="server" type="mods" />
+            
+            <mod name="Fence Overhaul" version="1.3.4" url="packs/MechMagicRewind/files/1.12.2Mods/FenceOverhaul-1.3.4.jar" file="FenceOverhaul-1.3.4.jar" md5="f98508580e1536892582631ddb5d9acf" download="server" type="mods" />
+            
+            <mod name="Forestry" version="5.8.2.387" url="packs/MechMagicRewind/files/1.12.2Mods/forestry_1.12.2-5.8.2.387.jar" file="forestry_1.12.2-5.8.2.387.jar" md5="367a01e7ff21262fa3dfc71e8fbd7332" download="server" type="mods" />
+            
+            <mod name="Forge Multipart CBE" version="2.6.1.81" url="packs/MechMagicRewind/files/1.12.2Mods/ForgeMultipart-1.12.2-2.6.1.81-universal.jar" file="ForgeMultipart-1.12.2-2.6.1.81-universal.jar" md5="c28c8fc458803154aca235be22dd3102" download="server" type="mods" />
+            
+            <mod name="FxControl" version="1.12-0.1.11" url="packs/MechMagicRewind/files/1.12.2Mods/fxcontrol-1.12-0.1.11.jar" file="fxcontrol-1.12-0.1.11.jar" md5="239f75fe217526fb256cd80b6f42ed01" download="server" type="mods" />
+            
+            <mod name="GalactiCraft Core" version="4.0.2.211" url="packs/MechMagicRewind/files/1.12.2Mods/GalacticraftCore-1.12.2-4.0.2.211.jar" file="GalacticraftCore-1.12.2-4.0.2.211.jar" md5="189e27cd009ba34e09e553ff3326ddb6" download="server" type="mods" description="Space Exploration" website="https://micdoodle8.com/mods/galacticraft" />
+            
+            <mod name="GalactiCraft Planets" version="4.0.2.211" url="packs/MechMagicRewind/files/1.12.2Mods/Galacticraft-Planets-1.12.2-4.0.2.211.jar" file="Galacticraft-Planets-1.12.2-4.0.2.211.jar" md5="5b830e2cf89de41581883390ee44702f" download="server" type="mods" description="Space Exploration" website="https://micdoodle8.com/mods/galacticraft" />
+            
+            <mod name="Gravel Ores" version="1.8" url="packs/MechMagicRewind/files/1.12.2Mods/gravelores-1.8.jar" file="gravelores-1.8.jar" md5="e12e60a8e3a928ecb06c07af41fd1c55" download="server" type="mods" />
+            
+            <mod name="Harvest" version="1.12-1.2.7-20" url="packs/MechMagicRewind/files/1.12.2Mods/Harvest-1.12-1.2.7-20.jar" file="Harvest-1.12-1.2.7-20.jar" md5="8814b7b1f198b8f8c798bd8c81f59b3c" download="server" type="mods" />
+            
+            <mod name="Hopper Ducts" version="mc1.12-1.5" url="packs/MechMagicRewind/files/1.12.2Mods/hopperducts-mc1.12-1.5.jar" file="hopperducts-mc1.12-1.5.jar" md5="b8a0bcc91f9c408df38da8068c5b82c7" download="server" type="mods" />
+            
+            <mod name="Horse Power" version="2.6.4.74" url="packs/MechMagicRewind/files/1.12.2Mods/HorsePower-1.12.2-2.6.4.74.jar" file="HorsePower-1.12.2-2.6.4.74.jar" md5="b30f2903ae697af120902c789c8ea76b" download="server" type="mods" />
+            
+            <mod name="Immersive Cables" version="1.3.2" url="packs/MechMagicRewind/files/1.12.2Mods/ImmersiveCables-1.12.2-1.3.2.jar" file="ImmersiveCables-1.12.2-1.3.2.jar" md5="605ef65c09fa0e2db3233af5cf79bf73" download="server" type="mods" />
+            
+            <mod name="Immersive Engineering" version="0.12-89" url="packs/MechMagicRewind/files/1.12.2Mods/ImmersiveEngineering-0.12-89.jar" file="ImmersiveEngineering-0.12-89.jar" md5="b79a17d68e023e2cab3fcb99fff19f9a" download="server" type="mods" />
+            
+            <mod name="InControl" version="1.12-3.9.12" url="packs/MechMagicRewind/files/1.12.2Mods/incontrol-1.12-3.9.12.jar" file="incontrol-1.12-3.9.12.jar" md5="1abb60cee6c49f4220576a36e49790a9" download="server" type="mods" />
+            
+            <mod name="Industrial Foregoing" version="1.12.12" url="packs/MechMagicRewind/files/1.12.2Mods/industrialforegoing-1.12.2-1.12.12-236.jar" file="industrialforegoing-1.12.2-1.12.12-236.jar" md5="7726b3d8b19dd88142db381a6d25c47a" download="server" type="mods" />
+            
+            <mod name="InstantUnify" version="1.12.2-1.1.2" url="packs/MechMagicRewind/files/1.12.2Mods/instantunify-1.12.2-1.1.2.jar" file="instantunify-1.12.2-1.1.2.jar" md5="edd6718ffee3f11039c146d0cba47424" download="server" type="mods" />
+            
+            <mod name="Integration Foregoing" version="1.12.2-1.9" url="packs/MechMagicRewind/files/1.12.2Mods/IntegrationForegoing-1.12.2-1.9.jar" file="IntegrationForegoing-1.12.2-1.9.jar" md5="4b2cbad2243b62fc15a712f9159f3bc5" download="server" type="mods" />
+            
+            <mod name="Iron Chest" version="7.0.69.845" url="packs/MechMagicRewind/files/1.12.2Mods/ironchest-1.12.2-7.0.69.845.jar" file="ironchest-1.12.2-7.0.69.845.jar" md5="cb4ac16615839333428a9e99f9c20f0f" download="server" type="mods" />
+            
+            <mod name="Just Enough Items" version="4.15.0.268" url="packs/MechMagicRewind/files/1.12.2Mods/jei_1.12.2-4.15.0.268.jar" file="jei_1.12.2-4.15.0.268.jar" md5="02f985065e7a2fdd17196b3030a067a4" download="server" type="mods" />
+            
+            <mod name="JEI Bees" version="0.9.0.5" url="packs/MechMagicRewind/files/1.12.2Mods/jeibees-0.9.0.5-mc1.12.2.jar" file="jeibees-0.9.0.5-mc1.12.2.jar" md5="a4fef0a3bb6d401eb236b3fe3e1a4846" download="server" type="mods" />
+            
+            <mod name="Just Enough Resources" version="0.9.2.60" url="packs/MechMagicRewind/files/1.12.2Mods/JustEnoughResources-1.12.2-0.9.2.60.jar" file="JustEnoughResources-1.12.2-0.9.2.60.jar" md5="87a4666549a60d8fb423883dd4ee6232" download="server" type="mods" />
+            
+            <mod name="LightningCraft" version="2.9.1" url="packs/MechMagicRewind/files/1.12.2Mods/lightningcraft-2.9.1-[1.12.2].jar" file="lightningcraft-2.9.1-[1.12.2].jar" md5="fb720e8c2b993508cf633a2413bae7bc" download="server" type="mods" />
+            
+            <mod name="LightningRods" version="1.0.0" url="packs/MechMagicRewind/files/1.12.2Mods/LightningRods-1.12.2-1.0.1.jar" file="LightningRods-1.12.2-1.0.1.jar" md5="0856bbe51533f9a04a49bfe38a5b74a3" download="server" type="mods" />
+            
+            <mod name="MalisisDoors" version="1.12.2-7.3.0" url="packs/MechMagicRewind/files/1.12.2Mods/malisisdoors-1.12.2-7.3.0.jar" file="malisisdoors-1.12.2-7.3.0.jar" md5="6d0f129ff9a05f84add5b2209a6d0284" download="server" type="mods" />
+            
+            <mod name="MapWriter" version="2.8.2" url="packs/MechMagicRewind/files/1.12.2Mods/MapWriter-1.12.2-2.8.2.jar" file="MapWriter-1.12.2-2.8.2.jar" md5="fc3ad89ff602ccf9e6131751d656a362" download="server" type="mods" />
+            
+            <mod name="Mekanism" version="1.12.2-9.7.9.380" url="packs/MechMagicRewind/files/1.12.2Mods/Mekanism-1.12.2-9.7.9.380.jar" file="Mekanism-1.12.2-9.7.9.380.jar" md5="c0418214cf545dbbaf57573d2e998a8c" download="server" type="mods" />
+            
+            <mod name="Mekanism: Generators" version="1.12.2-9.7.9.380" url="packs/MechMagicRewind/files/1.12.2Mods/MekanismGenerators-1.12.2-9.7.9.380.jar" file="MekanismGenerators-1.12.2-9.7.9.380.jar" md5="aba36748824de417d4474f900a6f0b79" download="server" type="mods" />
+            
+            <mod name="Mod Name Tooltip" version="1.10.0" url="packs/MechMagicRewind/files/1.12.2Mods/modnametooltip_1.12.2-1.10.0.jar" file="modnametooltip_1.12.2-1.10.0.jar" md5="6dda75b858fc93e2d18ccd42585aec03" download="server" type="mods" />
+            
+            <mod name="Mod Tweaker" version="4.0.17" url="packs/MechMagicRewind/files/1.12.2Mods/modtweaker-4.0.17.jar" file="modtweaker-4.0.17.jar" md5="e1737d87f3506f7913dea5462395cbda" download="server" type="mods" />
+            
+            <mod name="More Furnaces" version="1.12.2-1.10.6" url="packs/MechMagicRewind/files/1.12.2Mods/MoreFurnaces-1.12.2-1.10.6.jar" file="MoreFurnaces-1.12.2-1.10.6.jar" md5="d0531330b15f54cc26776ff22936ae59" download="server" type="mods" />
+            
+            <mod name="MoreOverlays" version="1.14" url="packs/MechMagicRewind/files/1.12.2Mods/moreoverlays-1.14-mc1.12.2.jar" file="moreoverlays-1.14-mc1.12.2.jar" md5="299ef46b09dfe6b9c874b7607c9a1d2d" download="server" type="mods" />
+            
+            <mod name="Galacticraft Add-on - More Planets" version="2.0.19" url="packs/MechMagicRewind/files/1.12.2Mods/More-Planets-1.12.2-2.0.19-GC211.jar" file="More-Planets-1.12.2-2.0.19-GC211.jar" md5="e0e4a0bef477eeb16407cd02aa640bc7" download="server" type="mods" />
+            
+            <mod name="Mystical Agriculture" version="1.7.3" url="packs/MechMagicRewind/files/1.12.2Mods/MysticalAgriculture-1.12.2-1.7.5.jar" file="MysticalAgriculture-1.12.2-1.7.5.jar" md5="b7b81747d20baf1c5547ee302bad1420" download="server" type="mods" />
+            
+            <mod name="Mystical World" version="1.1.0" url="packs/MechMagicRewind/files/1.12.2Mods/MysticWorld-1.12.2-1.3.1.jar" file="MysticWorld-1.12.2-1.3.1.jar" md5="2454e0f2d843941016bf1497700b50ee" download="server" type="mods" />
+            <mod name="Natura" version="1.12.2-4.3.2.69" url="packs/MechMagicRewind/files/1.12.2Mods/natura-1.12.2-4.3.2.69.jar" file="natura-1.12.2-4.3.2.69.jar" md5="2310e87658a493970605d416a504e0f9" download="server" type="mods" />
+            
+            <mod name="Nature&apos;s Aura" version="r17" url="packs/MechMagicRewind/files/1.12.2Mods/NaturesAura-r17.jar" file="NaturesAura-r17.jar" md5="3b1f227336d7550e8edef116ca57f1b2" download="server" type="mods" />
+            
+            <mod name="NotEnoughIDs" version="1.5.4.4" url="packs/MechMagicRewind/files/1.12.2Mods/NotEnoughIDs-1.5.4.4.jar" file="NotEnoughIDs-1.5.4.4.jar" md5="759494e409ce5d2ac277fc350e89500a" download="server" type="mods" />
+            
+            <mod name="OnlinePictureFrame" version="1.1" url="packs/MechMagicRewind/files/1.12.2Mods/OnlinePicFrame_v1.4.26_mc1.12.2.jar" file="OnlinePicFrame_v1.4.26_mc1.12.2.jar" md5="8c9f009de0a4ee42b82f93e05a90ee4f" download="server" type="mods" />
+            
+            <mod name="OreGen" version="0.9.5.1" url="packs/MechMagicRewind/files/1.12.2Mods/OreGen-1.12.2-0.9.5.1.jar" file="OreGen-1.12.2-0.9.5.1.jar" md5="e20574ef6778364697c3ea33a6455b04" download="server" type="mods" />
+            
+            <mod name="Pam&apos;s HarvestCraft" version="1.12a" url="packs/MechMagicRewind/files/1.12.2Mods/Pams HarvestCraft 1.12.2zd Surprise for Yogcast.jar" file="Pams HarvestCraft 1.12.2zd Surprise for Yogcast.jar" md5="d383ea51ccdd80e51ef8079d36c03ef1" download="server" type="mods" />
+            
+            <mod name="PamSimpleHarvest" version="2.0.0" url="packs/MechMagicRewind/files/1.12.2Mods/pamsimpleharvest-2.0.0.jar" file="pamsimpleharvest-2.0.0.jar" md5="af2eca47c182513777344fdffba38aa2" download="server" type="mods"
+/>
+
+            <mod name="ProjectRed Core" version="4.9.3.116" url="packs/MechMagicRewind/files/1.12.2Mods/ProjectRed-1.12.2-4.9.3.116-Base.jar" file="ProjectRed-1.12.2-4.9.3.116-Base.jar" md5="3fe348ffd05b5f8d53a62900f2e7d4db" download="server" type="mods" />
+            
+            <mod name="ProjectRed Compatibility" version="4.9.3.116" url="packs/MechMagicRewind/files/1.12.2Mods/ProjectRed-1.12.2-4.9.3.116-compat.jar" file="ProjectRed-1.12.2-4.9.3.116-compat.jar" md5="5a8ca01087f64f3d189d6ab5867f1ef0" download="server" type="mods" />
+            
+            <mod name="ProjectRed Fabrication" version="4.9.3.116" url="packs/MechMagicRewind/files/1.12.2Mods/ProjectRed-1.12.2-4.9.3.116-fabrication.jar" file="ProjectRed-1.12.2-4.9.3.116-fabrication.jar" md5="5b175cbf01ec2b1c2c4aeb8e70437f8b" download="server" type="mods" />
+            
+            <mod name="ProjectRed Transmission" version="4.9.3.116" url="packs/MechMagicRewind/files/1.12.2Mods/ProjectRed-1.12.2-4.9.3.116-integration.jar" file="ProjectRed-1.12.2-4.9.3.116-integration.jar" md5="2c26969d25365407c39468da91365741" download="server" type="mods" />
+            
+            <mod name="ProjectRed Illumination" version="4.9.3.116" url="packs/MechMagicRewind/files/1.12.2Mods/ProjectRed-1.12.2-4.9.3.116-lighting.jar" file="ProjectRed-1.12.2-4.9.3.116-lighting.jar" md5="65c9908f887e2a0d6f02406bcf66c8a5" download="server" type="mods" />
+            
+            <mod name="ProjectRed Expansion" version="4.9.3.116" url="packs/MechMagicRewind/files/1.12.2Mods/ProjectRed-1.12.2-4.9.3.116-mechanical.jar" file="ProjectRed-1.12.2-4.9.3.116-mechanical.jar" md5="ff8e6af197100f993879c2643068dc47" download="server" type="mods" />
+            
+            <mod name="ProjectRed Exploration" version="4.9.3.116" url="packs/MechMagicRewind/files/1.12.2Mods/ProjectRed-1.12.2-4.9.3.116-world.jar" file="ProjectRed-1.12.2-4.9.3.116-world.jar" md5="e6e1c349e5765519474030d362f5e930" download="server" type="mods" />
+            
+            <mod name="Railcraft" version="12.0.0" url="packs/MechMagicRewind/files/1.12.2Mods/railcraft-12.0.0.jar" file="railcraft-12.0.0.jar" md5="b6f0592e8f5c24d07fe065f1c97c8fda" download="server" type="mods" />
+            
+            <mod name="RandomPatches" version="1.12.2-1.17.2.0" url="packs/MechMagicRewind/files/1.12.2Mods/randompatches-1.12.2-1.17.2.0.jar" file="randompatches-1.12.2-1.17.2.0.jar" md5="5d0a181bc6f2d38874ed9f1a46ed9848" download="server" type="mods" />
+            
+            <mod name="Random Things" version="4.2.7.2" url="packs/MechMagicRewind/files/1.12.2Mods/RandomThings-MC1.12.2-4.2.7.2.jar" file="RandomThings-MC1.12.2-4.2.7.2.jar" md5="0fe5f054e13fa88520c220a8a6d66651" download="server" type="mods" />
+            
+            <mod name="ReAuth" version="3.6.0" url="packs/MechMagicRewind/files/1.12.2Mods/reauth-3.6.0.jar" file="reauth-3.6.0.jar" md5="6024686e40df10b8739042ea2dce7f1a" download="server" type="mods" />
+            
+            <mod name="Redstone Arsenal" version="2.6.3.18" url="packs/MechMagicRewind/files/1.12.2Mods/RedstoneArsenal-1.12.2-2.6.3.18-universal.jar" file="RedstoneArsenal-1.12.2-2.6.3.18-universal.jar" md5="3bbe81cebe761061b8d16f6c981e30b4" download="server" type="mods" />
+            
+            <mod name="Redstone Flux" version="2.1.0.6" url="packs/MechMagicRewind/files/1.12.2Mods/RedstoneFlux-1.12-2.1.0.6-universal.jar" file="RedstoneFlux-1.12-2.1.0.6-universal.jar" md5="f00530b437c41a189dbf8a85d0ac40b6" download="server" type="mods" />
+            
+            <mod name="Reliquary" version="1.12.2-1.3.4.786" url="packs/MechMagicRewind/files/1.12.2Mods/Reliquary-1.12.2-1.3.4.786.jar" file="Reliquary-1.12.2-1.3.4.786.jar" md5="618eca01b3ca0041febe79b328d1660a" download="server" type="mods" />
+            
+            <mod name="Resource Loader" version="1.5.3" url="packs/MechMagicRewind/files/1.12.2Mods/ResourceLoader-MC1.12.1-1.5.3.jar" file="ResourceLoader-MC1.12.1-1.5.3.jar" md5="51141e882f96ce756b9b3d25f2acdf57" download="server" type="mods" />
+            
+            <mod name="Roots" version="3.0.0" url="packs/MechMagicRewind/files/1.12.2Mods/Roots-1.12.2-3.0.2.jar" file="Roots-1.12.2-3.0.2.jar" md5="6585caa63aeb06da1508e4cda55f0fc1" download="server" type="mods" />
+            
+            <mod name="Scaling Health" version="1.3.38" url="packs/MechMagicRewind/files/1.12.2Mods/ScalingHealth-1.12.2-1.3.38143.jar" file="ScalingHealth-1.12.2-1.3.38143.jar" md5="a9a9c03ff677b21e09a73a7eb755cfbb" download="server" type="mods" />
+            
+            <mod name="Secret Rooms 5" version="5.6.4" url="packs/MechMagicRewind/files/1.12.2Mods/secretroomsmod-1.12.2-5.6.4.jar" file="secretroomsmod-1.12.2-5.6.4.jar" md5="d853b4060cf429ce7765a750501de764" download="server" type="mods" />
+            
+            <mod name="Simple Storage Network" version="1.12.2-1.7.8" url="packs/MechMagicRewind/files/1.12.2Mods/SimpleStorageNetwork-1.12.2-1.7.8.jar" file="SimpleStorageNetwork-1.12.2-1.7.8.jar" md5="a911d49a0e46478f31420f69f2e657fd" download="server" type="mods" />
+            
+            <mod name="Simply Jetpacks 2" version="2.2.12.65" url="packs/MechMagicRewind/files/1.12.2Mods/SimplyJetpacks2-1.12.2-2.2.12.65.jar" file="SimplyJetpacks2-1.12.2-2.2.12.65.jar" md5="7a41df833fed6109aeacb5aaa9b08ea0" download="server" type="mods" />
+            
+            <mod name="Smooth Font" version="mc1.12.2-2.1" url="packs/MechMagicRewind/files/1.12.2Mods/SmoothFont-mc1.12.2-2.1.jar" file="SmoothFont-mc1.12.2-2.1.jar" md5="5b1743fdbf98800d99eca5d0c5f6b565" download="server" type="mods" />
+            
+            <mod name="SpaceCraftX" version="1.12.2-1.0.35" url="packs/MechMagicRewind/files/1.12.2Mods/spacecraftx-1.12.2-1.0.35.jar" file="spacecraftx-1.12.2-1.0.35.jar" md5="c364e3cfdd66cb173297771351c12d82" download="server" type="mods" />
+            
+            <mod name="Steve&apos;s Carts 2" version="2.4.30.134" url="packs/MechMagicRewind/files/1.12.2Mods/StevesCarts-1.12.2-2.4.30.134.jar" file="StevesCarts-1.12.2-2.4.30.134.jar" md5="ce069d203a0fa690eeebcb55f9633676" download="server" type="mods" />
+            
+            <mod name="SwingThroughGrass" version="1.12.2-1.2.3" url="packs/MechMagicRewind/files/1.12.2Mods/stg-1.12.2-1.2.3.jar" file="stg-1.12.2-1.2.3.jar" md5="b836648006f1451c65d33f7132eec770" download="server" type="mods" />
+            
+            <mod name="Tinkers&apos; Construct" version="2.12.0.157" url="packs/MechMagicRewind/files/1.12.2Mods/TConstruct-1.12.2-2.12.0.157.jar" file="TConstruct-1.12.2-2.12.0.157.jar" md5="9c8942eff75c9f2b4a13ec085c118b56" download="server" type="mods" />
+            
+            <mod name="Thaumcraft" version="1.12.2-6.1.BETA26" url="packs/MechMagicRewind/files/1.12.2Mods/Thaumcraft-1.12.2-6.1.BETA26.jar" file="Thaumcraft-1.12.2-6.1.BETA26.jar" md5="3b13783ccaafb5d5b9ce8cb85e87fff6" download="server" type="mods" />
+            
+            <mod name="Thaumic Energistics" version="2.2.2" url="packs/MechMagicRewind/files/1.12.2Mods/thaumicenergistics-2.2.2.jar" file="thaumicenergistics-2.2.2.jar" md5="49fda2565d2d0b7ab44a8d0184920d33" download="server" type="mods" />
+            
+            <mod name="Thaumic Terminal" version="1.0.12" url="packs/MechMagicRewind/files/1.12.2Mods/ThaumicTerminal-1.0.12.jar" file="ThaumicTerminal-1.0.12.jar" md5="87ecb948177612c49071d77a33ab5db1" download="server" type="mods" />
+            
+            <mod name="Thaumic Tinkerer" version="1.12.2-5.0-353c71c" url="packs/MechMagicRewind/files/1.12.2Mods/thaumictinkerer-1.12.2-5.0-353c71c.jar" file="thaumictinkerer-1.12.2-5.0-353c71c.jar" md5="185a3cdfaa25c66ebcbc90fdbfe508dd" download="server" type="mods" />
+            
+            <mod name="The One Probe" version="1.12-1.4.28" url="packs/MechMagicRewind/files/1.12.2Mods/theoneprobe-1.12-1.4.28.jar" file="theoneprobe-1.12-1.4.28.jar" md5="63849a13a822b3b56308245eb8074a7e" download="server" type="mods" />
+            
+            <mod name="Thermal Dynamics" version="2.5.5.21" url="packs/MechMagicRewind/files/1.12.2Mods/ThermalDynamics-1.12.2-2.5.5.21-universal.jar" file="ThermalDynamics-1.12.2-2.5.5.21-universal.jar" md5="3317c6f327d7ebe0ee3bd6206ececb02" download="server" type="mods" />
+            
+            <mod name="Thermal Expansion" version="5.5.4.43" url="packs/MechMagicRewind/files/1.12.2Mods/ThermalExpansion-1.12.2-5.5.4.43-universal.jar" file="ThermalExpansion-1.12.2-5.5.4.43-universal.jar" md5="53144cfec12795862d20aa07750c9a59" download="server" type="mods" />
+            
+            <mod name="Thermal Foundation" version="2.6.3.27" url="packs/MechMagicRewind/files/1.12.2Mods/ThermalFoundation-1.12.2-2.6.3.27-universal.jar" file="ThermalFoundation-1.12.2-2.6.3.27-universal.jar" md5="0f61017dc9412ba4aad8a64f7bca16bb" download="server" type="mods" />
+            
+            <mod name="Tinkers Tool Leveling" version="1.1.0" url="packs/MechMagicRewind/files/1.12.2Mods/TinkerToolLeveling-1.12.2-1.1.0.jar" file="TinkerToolLeveling-1.12.2-1.1.0.jar" md5="f9253fe86c6649afbf49d221c71ba19a" download="server" type="mods" />
+            
+            <mod name="TorchMaster" version="1.7.1.74" url="packs/MechMagicRewind/files/1.12.2Mods/torchmaster_1.12.2-1.7.1.74.jar" file="torchmaster_1.12.2-1.7.1.74.jar" md5="14de6fbebbfc54bbc350a71dcc0359dc" download="server" type="mods" />
+            
+            <mod name="Totemic" version="1.12.2-0.11.6" url="packs/MechMagicRewind/files/1.12.2Mods/Totemic-1.12.2-0.11.6.jar" file="Totemic-1.12.2-0.11.6.jar" md5="e55df58ea598245f103fbd4385fcc5b7" download="server" type="mods" />
+            
+            <mod name="Translocators" version="2.5.1.77" url="packs/MechMagicRewind/files/1.12.2Mods/Translocators-1.12.2-2.5.1.77-universal.jar" file="Translocators-1.12.2-2.5.1.77-universal.jar" md5="c04e6bdd5f61f26e824ac47b97fde260" download="server" type="mods" />
+
+            <mod name="Traverse" version="1.12.2-1.6.0-69" url="packs/MechMagicRewind/files/1.12.2Mods/Traverse-1.12.2-1.6.0-69.jar" file="Traverse-1.12.2-1.6.0-69.jar" md5="3cc748cd333cab2e5f8132a89cd40b48" download="server" type="mods" />
+            
+            <mod name="UniDict" version="1.12.2-2.9.2" url="packs/MechMagicRewind/files/1.12.2Mods/UniDict-1.12.2-2.9.2.jar" file="UniDict-1.12.2-2.9.2.jar" md5="b1ba004241d86a3e1280c8911c2b4ff2" download="server" type="mods" />
+            
+            <mod name="Veining" version="1.3.2" url="packs/MechMagicRewind/files/1.12.2Mods/veining-1.3.2-1.12.x.jar" file="veining-1.3.2-1.12.x.jar" md5="c19d8cc2ce5a3ce7c3469908cae6b21e" download="server" type="mods" />
+            
+            <mod name="Water Strainer" version="1.12-3.2.0" url="packs/MechMagicRewind/files/1.12.2Mods/WaterStrainer-1.12-3.2.0.jar" file="WaterStrainer-1.12-3.2.0.jar" md5="353d23bcd19d23fa13a12b41222475f0" download="server" type="mods" />
+
+            <mod name="Waystones" version="4.0.72" url="packs/MechMagicRewind/files/1.12.2Mods/Waystones_1.12.2-4.0.72.jar" file="Waystones_1.12.2-4.0.72.jar" md5="bd0e629002546e7cc3b6207a61886b88" download="server" type="mods" />
+            
+            <mod name="Wireless Crafting Terminal 2" version="1.12.2-3.12.93" url="packs/MechMagicRewind/files/1.12.2Mods/WirelessCraftingTerminal-1.12.2-3.12.93.jar" file="WirelessCraftingTerminal-1.12.2-3.12.93.jar" md5="7e46208a35505f189f6346a1c17c34fd" download="server" type="mods" />
+            
+            <mod name="WirelessRedstone-CBE" version="2.3.1.30" url="packs/MechMagicRewind/files/1.12.2Mods/WR-CBE-1.12.2-2.3.1.30-universal.jar" file="WR-CBE-1.12.2-2.3.1.30-universal.jar" md5="aaf2999992613ae5bed991d97b214467" download="server" type="mods" />
+            <!--Core Mods -->
+            
+            <mod name="AutoRegLib" version="1.3-31" url="packs/MechMagicRewind/files/1.12.2Mods/AutoRegLib-1.3-31.jar" file="AutoRegLib-1.3-31.jar" md5="bdc6ab2dd60a2562e2af5b0543e0ed27" download="server" type="mods" />
+            
+            <mod name="BD Lib" version="1.14.3.12" url="packs/MechMagicRewind/files/1.12.2Mods/bdlib-1.14.3.12-mc1.12.2.jar" file="bdlib-1.14.3.12-mc1.12.2.jar" md5="d2b8ba08414ac12737eb5ecbf92a19d9" download="server" type="mods" />
+            
+            <mod name="CodeChicken Lib" version="3.2.2.353" url="packs/MechMagicRewind/files/1.12.2Mods/CodeChickenLib-1.12.2-3.2.2.353-universal.jar" file="CodeChickenLib-1.12.2-3.2.2.353-universal.jar" md5="f8b4843eccafb2213512ba9be17bfad2" download="server" type="mods" />
+            
+            <mod name="CoFH Core" version="4.6.3.27" url="packs/MechMagicRewind/files/1.12.2Mods/CoFHCore-1.12.2-4.6.3.27-universal.jar" file="CoFHCore-1.12.2-4.6.3.27-universal.jar" md5="90efac9c0abffa63c6da1453ceca1d68" download="server" type="mods" />
+            
+            <mod name="CreativeCore" version="1.7" url="packs/MechMagicRewind/files/1.12.2Mods/CreativeCore_v1.9.54_mc1.12.2.jar" file="CreativeCore_v1.9.54_mc1.12.2.jar" md5="4d819aed6c4e3730455c957002a703c0" download="server" type="mods" />
+            
+            <mod name="CTD Core" version="1.4.2" url="packs/MechMagicRewind/files/1.12.2Mods/CTD-Core-1.12.2-1.4.2.jar" file="CTD-Core-1.12.2-1.4.2.jar" md5="fd079e6a12c79ccb4410e536ce156723" download="server" type="mods" />
+            
+            <mod name="Cucumber Library" version="1.1.3" url="packs/MechMagicRewind/files/1.12.2Mods/Cucumber-1.12.2-1.1.3.jar" file="Cucumber-1.12.2-1.1.3.jar" md5="0018d8de31b05dc44c80a25d73fde15b" download="server" type="mods" />
+            
+            <mod name="CXLibrary" version="1.12.1-1.6.1" url="packs/MechMagicRewind/files/1.12.2Mods/cxlibrary-1.12.1-1.6.1.jar" file="cxlibrary-1.12.1-1.6.1.jar" md5="be35c47a1ab0d2c26bfe84b3f7938662" download="server" type="mods" />
+            
+            <mod name="Cyclops Core" version="1.12.2-1.4.0" url="packs/MechMagicRewind/files/1.12.2Mods/CyclopsCore-1.12.2-1.4.0.jar" file="CyclopsCore-1.12.2-1.4.0.jar" md5="e1c2e93d0a1d119697cda06bee03241e" download="server" type="mods" />
+            
+            <mod name="Fantastic Lib" version="1.12.2.020" url="packs/MechMagicRewind/files/1.12.2Mods/FantasticLib-1.12.2.020.jar" file="FantasticLib-1.12.2.020.jar" md5="b42c374310cd5275342a018840e158f8" download="server" type="mods" />
+            
+            <mod name="Shadowfacts&apos; Forgelin" version="1.8.3" url="packs/MechMagicRewind/files/1.12.2Mods/Forgelin-1.8.3.jar" file="Forgelin-1.8.3.jar" md5="d729a4a101a5687329526f6cb7adc64d" download="server" type="mods" />
+            
+            <mod name="Guide-API" version="1.12-2.1.8-63" url="packs/MechMagicRewind/files/1.12.2Mods/Guide-API-1.12-2.1.8-63.jar" file="Guide-API-1.12-2.1.8-63.jar" md5="117d3d825059fceb0c1d04f8701beb00" download="server" type="mods" />
+            
+            <mod name="MalisisCore" version="1.12.2-6.5.1-SNAPSHOT" url="packs/MechMagicRewind/files/1.12.2Mods/malisiscore-1.12.2-6.5.1.jar" file="malisiscore-1.12.2-6.5.1.jar" md5="ccc183a97d7b9688a49bf29b61343f49" download="server" type="mods" />
+            
+            <mod name="Mantle" version="1.3.3.55" url="packs/MechMagicRewind/files/1.12.2Mods/Mantle-1.12-1.3.3.55.jar" file="Mantle-1.12-1.3.3.55.jar" md5="1026f5f8d3c4997831decd9023ca65a6" download="server" type="mods" />
+            
+            <mod name="MicdoodleCore" version="4.0.2.211" url="packs/MechMagicRewind/files/1.12.2Mods/MicdoodleCore-1.12.2-4.0.2.211.jar" file="MicdoodleCore-1.12.2-4.0.2.211.jar" md5="244de575558c0ddffee4fd44e1302e36" download="server" type="mods" />
+            
+            <mod name="MrTJPCore" version="2.1.4.43" url="packs/MechMagicRewind/files/1.12.2Mods/MrTJPCore-1.12.2-2.1.4.43-universal.jar" file="MrTJPCore-1.12.2-2.1.4.43-universal.jar" md5="edff42a77c41f9191722b5b794e37668" download="server" type="mods" />
+            
+            <mod name="MTLib" version="3.0.6" url="packs/MechMagicRewind/files/1.12.2Mods/MTLib-3.0.6.jar" file="MTLib-3.0.6.jar" md5="b46748362c046d70b821121331246aa5" download="server" type="mods" />
+            
+            <mod name="Mystical Lib" version="1.1.1" url="packs/MechMagicRewind/files/1.12.2Mods/mysticallib-1.12.2-1.3.1.jar" file="mysticallib-1.12.2-1.3.1.jar" md5="b3aa9c5c367acf32b32d94be46aa9357" download="server" type="mods" />
+            
+            <mod name="p455w0rd&apos;s Library" version="1.12.2-2.2.151" url="packs/MechMagicRewind/files/1.12.2Mods/p455w0rdslib-1.12.2-2.2.151.jar" file="p455w0rdslib-1.12.2-2.2.151.jar" md5="40a846858743ff74ef6365b85eac558c" download="server" type="mods" />
+            
+            <mod name="Patchouli" version="1.0-20" url="packs/MechMagicRewind/files/1.12.2Mods/Patchouli-1.0-20.jar" file="Patchouli-1.0-20.jar" md5="7ccc8471d31b2997768f813d8e3f7b96" download="server" type="mods" />
+            
+            <mod name="Reborn Core" version="3.13.12.447" url="packs/MechMagicRewind/files/1.12.2Mods/RebornCore-1.12.2-3.13.12.447-universal.jar" file="RebornCore-1.12.2-3.13.12.447-universal.jar" md5="d96134850c15e2eea962195d00b77550" download="server" type="mods" />
+            
+            <mod name="ShetiPhian-Core" version="1.12.0-3.5.9" url="packs/MechMagicRewind/files/1.12.2Mods/shetiphiancore-1.12.0-3.5.9.jar" file="shetiphiancore-1.12.0-3.5.9.jar" md5="0b44614578a9b52f1b5a75e312fdcf23" download="server" type="mods" />
+
+            <mod name="Silent Lib" version="3.0.13" url="packs/MechMagicRewind/files/1.12.2Mods/SilentLib-1.12.2-3.0.13167.jar" file="SilentLib-1.12.2-3.0.13167.jar" md5="226e4977e83fec1fd88963ce7a98fb16" download="server" type="mods" />
+
+            <mod name="Tesla Core Lib" version="1.12.2-1.0.15" url="packs/MechMagicRewind/files/1.12.2Mods/tesla-core-lib-1.12.2-1.0.15.jar" file="tesla-core-lib-1.12.2-1.0.15.jar" md5="b0214b0a90243374c6bd89a023f2b26e" download="server" type="mods" />
+            
+            <mod name="WanionLib" version="1.12.2-2.2" url="packs/MechMagicRewind/files/1.12.2Mods/WanionLib-1.12.2-2.2.jar" file="WanionLib-1.12.2-2.2.jar" md5="da46d9a391cb6ac4d3bd453db2158e58" download="server" type="mods" />
+
+            <mod name="Zero CORE" version="1.12.2-0.1.2.8" url="packs/MechMagicRewind/files/1.12.2Mods/zerocore-1.12.2-0.1.2.8.jar" file="zerocore-1.12.2-0.1.2.8.jar" md5="cc782f73e62792dcdb108449baec110f" download="server" type="mods" />
+        </mods>
+       
+    
+    
+</version>
